@@ -1,0 +1,56 @@
+[
+{
+  "directory": "/Users/thomasanwandter/Developer/ImGuiProject/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/thomasanwandter/Developer/ImGuiProject/external -isystem /opt/homebrew/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.1 -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks  -o CMakeFiles/ImGuiProject.dir/src/main.cpp.o -c /Users/thomasanwandter/Developer/ImGuiProject/src/main.cpp",
+  "file": "/Users/thomasanwandter/Developer/ImGuiProject/src/main.cpp",
+  "output": "CMakeFiles/ImGuiProject.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/thomasanwandter/Developer/ImGuiProject/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/thomasanwandter/Developer/ImGuiProject/external -isystem /opt/homebrew/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.1 -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks  -o CMakeFiles/ImGuiProject.dir/external/imgui/imgui.cpp.o -c /Users/thomasanwandter/Developer/ImGuiProject/external/imgui/imgui.cpp",
+  "file": "/Users/thomasanwandter/Developer/ImGuiProject/external/imgui/imgui.cpp",
+  "output": "CMakeFiles/ImGuiProject.dir/external/imgui/imgui.cpp.o"
+},
+{
+  "directory": "/Users/thomasanwandter/Developer/ImGuiProject/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/thomasanwandter/Developer/ImGuiProject/external -isystem /opt/homebrew/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.1 -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks  -o CMakeFiles/ImGuiProject.dir/external/imgui/imgui_impl_glfw.cpp.o -c /Users/thomasanwandter/Developer/ImGuiProject/external/imgui/imgui_impl_glfw.cpp",
+  "file": "/Users/thomasanwandter/Developer/ImGuiProject/external/imgui/imgui_impl_glfw.cpp",
+  "output": "CMakeFiles/ImGuiProject.dir/external/imgui/imgui_impl_glfw.cpp.o"
+},
+{
+  "directory": "/Users/thomasanwandter/Developer/ImGuiProject/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/thomasanwandter/Developer/ImGuiProject/external -isystem /opt/homebrew/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.1 -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks  -o CMakeFiles/ImGuiProject.dir/external/imgui/imgui_impl_opengl3.cpp.o -c /Users/thomasanwandter/Developer/ImGuiProject/external/imgui/imgui_impl_opengl3.cpp",
+  "file": "/Users/thomasanwandter/Developer/ImGuiProject/external/imgui/imgui_impl_opengl3.cpp",
+  "output": "CMakeFiles/ImGuiProject.dir/external/imgui/imgui_impl_opengl3.cpp.o"
+},
+{
+  "directory": "/Users/thomasanwandter/Developer/ImGuiProject/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/thomasanwandter/Developer/ImGuiProject/external -isystem /opt/homebrew/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.1 -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks  -o CMakeFiles/ImGuiProject.dir/external/imgui/imgui_draw.cpp.o -c /Users/thomasanwandter/Developer/ImGuiProject/external/imgui/imgui_draw.cpp",
+  "file": "/Users/thomasanwandter/Developer/ImGuiProject/external/imgui/imgui_draw.cpp",
+  "output": "CMakeFiles/ImGuiProject.dir/external/imgui/imgui_draw.cpp.o"
+},
+{
+  "directory": "/Users/thomasanwandter/Developer/ImGuiProject/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/thomasanwandter/Developer/ImGuiProject/external -isystem /opt/homebrew/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.1 -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks  -o CMakeFiles/ImGuiProject.dir/external/imgui/imgui_widgets.cpp.o -c /Users/thomasanwandter/Developer/ImGuiProject/external/imgui/imgui_widgets.cpp",
+  "file": "/Users/thomasanwandter/Developer/ImGuiProject/external/imgui/imgui_widgets.cpp",
+  "output": "CMakeFiles/ImGuiProject.dir/external/imgui/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/Users/thomasanwandter/Developer/ImGuiProject/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/thomasanwandter/Developer/ImGuiProject/external -isystem /opt/homebrew/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.1 -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks  -o CMakeFiles/ImGuiProject.dir/external/imgui/imgui_tables.cpp.o -c /Users/thomasanwandter/Developer/ImGuiProject/external/imgui/imgui_tables.cpp",
+  "file": "/Users/thomasanwandter/Developer/ImGuiProject/external/imgui/imgui_tables.cpp",
+  "output": "CMakeFiles/ImGuiProject.dir/external/imgui/imgui_tables.cpp.o"
+},
+{
+  "directory": "/Users/thomasanwandter/Developer/ImGuiProject/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/thomasanwandter/Developer/ImGuiProject/external -isystem /opt/homebrew/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.1 -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks  -o CMakeFiles/ImGuiProject.dir/external/imgui/imgui_demo.cpp.o -c /Users/thomasanwandter/Developer/ImGuiProject/external/imgui/imgui_demo.cpp",
+  "file": "/Users/thomasanwandter/Developer/ImGuiProject/external/imgui/imgui_demo.cpp",
+  "output": "CMakeFiles/ImGuiProject.dir/external/imgui/imgui_demo.cpp.o"
+},
+{
+  "directory": "/Users/thomasanwandter/Developer/ImGuiProject/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/thomasanwandter/Developer/ImGuiProject/external -isystem /opt/homebrew/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.1 -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks  -o CMakeFiles/ImGuiProject.dir/include/imgui_utils.cpp.o -c /Users/thomasanwandter/Developer/ImGuiProject/include/imgui_utils.cpp",
+  "file": "/Users/thomasanwandter/Developer/ImGuiProject/include/imgui_utils.cpp",
+  "output": "CMakeFiles/ImGuiProject.dir/include/imgui_utils.cpp.o"
+}
+]
