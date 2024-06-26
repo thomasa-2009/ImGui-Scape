@@ -1,3 +1,3 @@
-/Users/thomasanwandter/Developer/ImGuiProject/build/CMakeFiles/ImGuiProject.dir
-/Users/thomasanwandter/Developer/ImGuiProject/build/CMakeFiles/edit_cache.dir
-/Users/thomasanwandter/Developer/ImGuiProject/build/CMakeFiles/rebuild_cache.dir
+/Users/thomasanwandter/Developer/ImGui-Scape/build/CMakeFiles/ImGui-Scape.dir
+/Users/thomasanwandter/Developer/ImGui-Scape/build/CMakeFiles/edit_cache.dir
+/Users/thomasanwandter/Developer/ImGui-Scape/build/CMakeFiles/rebuild_cache.dir

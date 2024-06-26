@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.6/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/thomasanwandter/Developer/ImGuiProject
+CMAKE_SOURCE_DIR = /Users/thomasanwandter/Developer/ImGui-Scape
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/thomasanwandter/Developer/ImGuiProject/build
+CMAKE_BINARY_DIR = /Users/thomasanwandter/Developer/ImGui-Scape/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/thomasanwandter/Developer/ImGuiProject/build/CMakeFiles /Users/thomasanwandter/Developer/ImGuiProject/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/thomasanwandter/Developer/ImGui-Scape/build/CMakeFiles /Users/thomasanwandter/Developer/ImGui-Scape/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/thomasanwandter/Developer/ImGuiProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/thomasanwandter/Developer/ImGui-Scape/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ImGuiProject
+# Target rules for targets named ImGui-Scape
 
 # Build rule for target.
-ImGuiProject: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ImGuiProject
-.PHONY : ImGuiProject
+ImGui-Scape: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ImGui-Scape
+.PHONY : ImGui-Scape
 
 # fast build rule for target.
-ImGuiProject/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/build
-.PHONY : ImGuiProject/fast
+ImGui-Scape/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/build
+.PHONY : ImGui-Scape/fast
 
 external/imgui/imgui.o: external/imgui/imgui.cpp.o
 .PHONY : external/imgui/imgui.o
 
 # target to build an object file
 external/imgui/imgui.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/external/imgui/imgui.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/external/imgui/imgui.cpp.o
 .PHONY : external/imgui/imgui.cpp.o
 
 external/imgui/imgui.i: external/imgui/imgui.cpp.i
@@ -142,7 +142,7 @@ external/imgui/imgui.i: external/imgui/imgui.cpp.i
 
 # target to preprocess a source file
 external/imgui/imgui.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/external/imgui/imgui.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/external/imgui/imgui.cpp.i
 .PHONY : external/imgui/imgui.cpp.i
 
 external/imgui/imgui.s: external/imgui/imgui.cpp.s
@@ -150,7 +150,7 @@ external/imgui/imgui.s: external/imgui/imgui.cpp.s
 
 # target to generate assembly for a file
 external/imgui/imgui.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/external/imgui/imgui.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/external/imgui/imgui.cpp.s
 .PHONY : external/imgui/imgui.cpp.s
 
 external/imgui/imgui_demo.o: external/imgui/imgui_demo.cpp.o
@@ -158,7 +158,7 @@ external/imgui/imgui_demo.o: external/imgui/imgui_demo.cpp.o
 
 # target to build an object file
 external/imgui/imgui_demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/external/imgui/imgui_demo.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/external/imgui/imgui_demo.cpp.o
 .PHONY : external/imgui/imgui_demo.cpp.o
 
 external/imgui/imgui_demo.i: external/imgui/imgui_demo.cpp.i
@@ -166,7 +166,7 @@ external/imgui/imgui_demo.i: external/imgui/imgui_demo.cpp.i
 
 # target to preprocess a source file
 external/imgui/imgui_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/external/imgui/imgui_demo.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/external/imgui/imgui_demo.cpp.i
 .PHONY : external/imgui/imgui_demo.cpp.i
 
 external/imgui/imgui_demo.s: external/imgui/imgui_demo.cpp.s
@@ -174,7 +174,7 @@ external/imgui/imgui_demo.s: external/imgui/imgui_demo.cpp.s
 
 # target to generate assembly for a file
 external/imgui/imgui_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/external/imgui/imgui_demo.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/external/imgui/imgui_demo.cpp.s
 .PHONY : external/imgui/imgui_demo.cpp.s
 
 external/imgui/imgui_draw.o: external/imgui/imgui_draw.cpp.o
@@ -182,7 +182,7 @@ external/imgui/imgui_draw.o: external/imgui/imgui_draw.cpp.o
 
 # target to build an object file
 external/imgui/imgui_draw.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/external/imgui/imgui_draw.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/external/imgui/imgui_draw.cpp.o
 .PHONY : external/imgui/imgui_draw.cpp.o
 
 external/imgui/imgui_draw.i: external/imgui/imgui_draw.cpp.i
@@ -190,7 +190,7 @@ external/imgui/imgui_draw.i: external/imgui/imgui_draw.cpp.i
 
 # target to preprocess a source file
 external/imgui/imgui_draw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/external/imgui/imgui_draw.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/external/imgui/imgui_draw.cpp.i
 .PHONY : external/imgui/imgui_draw.cpp.i
 
 external/imgui/imgui_draw.s: external/imgui/imgui_draw.cpp.s
@@ -198,7 +198,7 @@ external/imgui/imgui_draw.s: external/imgui/imgui_draw.cpp.s
 
 # target to generate assembly for a file
 external/imgui/imgui_draw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/external/imgui/imgui_draw.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/external/imgui/imgui_draw.cpp.s
 .PHONY : external/imgui/imgui_draw.cpp.s
 
 external/imgui/imgui_impl_glfw.o: external/imgui/imgui_impl_glfw.cpp.o
@@ -206,7 +206,7 @@ external/imgui/imgui_impl_glfw.o: external/imgui/imgui_impl_glfw.cpp.o
 
 # target to build an object file
 external/imgui/imgui_impl_glfw.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/external/imgui/imgui_impl_glfw.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/external/imgui/imgui_impl_glfw.cpp.o
 .PHONY : external/imgui/imgui_impl_glfw.cpp.o
 
 external/imgui/imgui_impl_glfw.i: external/imgui/imgui_impl_glfw.cpp.i
@@ -214,7 +214,7 @@ external/imgui/imgui_impl_glfw.i: external/imgui/imgui_impl_glfw.cpp.i
 
 # target to preprocess a source file
 external/imgui/imgui_impl_glfw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/external/imgui/imgui_impl_glfw.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/external/imgui/imgui_impl_glfw.cpp.i
 .PHONY : external/imgui/imgui_impl_glfw.cpp.i
 
 external/imgui/imgui_impl_glfw.s: external/imgui/imgui_impl_glfw.cpp.s
@@ -222,7 +222,7 @@ external/imgui/imgui_impl_glfw.s: external/imgui/imgui_impl_glfw.cpp.s
 
 # target to generate assembly for a file
 external/imgui/imgui_impl_glfw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/external/imgui/imgui_impl_glfw.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/external/imgui/imgui_impl_glfw.cpp.s
 .PHONY : external/imgui/imgui_impl_glfw.cpp.s
 
 external/imgui/imgui_impl_opengl3.o: external/imgui/imgui_impl_opengl3.cpp.o
@@ -230,7 +230,7 @@ external/imgui/imgui_impl_opengl3.o: external/imgui/imgui_impl_opengl3.cpp.o
 
 # target to build an object file
 external/imgui/imgui_impl_opengl3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/external/imgui/imgui_impl_opengl3.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/external/imgui/imgui_impl_opengl3.cpp.o
 .PHONY : external/imgui/imgui_impl_opengl3.cpp.o
 
 external/imgui/imgui_impl_opengl3.i: external/imgui/imgui_impl_opengl3.cpp.i
@@ -238,7 +238,7 @@ external/imgui/imgui_impl_opengl3.i: external/imgui/imgui_impl_opengl3.cpp.i
 
 # target to preprocess a source file
 external/imgui/imgui_impl_opengl3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/external/imgui/imgui_impl_opengl3.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/external/imgui/imgui_impl_opengl3.cpp.i
 .PHONY : external/imgui/imgui_impl_opengl3.cpp.i
 
 external/imgui/imgui_impl_opengl3.s: external/imgui/imgui_impl_opengl3.cpp.s
@@ -246,7 +246,7 @@ external/imgui/imgui_impl_opengl3.s: external/imgui/imgui_impl_opengl3.cpp.s
 
 # target to generate assembly for a file
 external/imgui/imgui_impl_opengl3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/external/imgui/imgui_impl_opengl3.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/external/imgui/imgui_impl_opengl3.cpp.s
 .PHONY : external/imgui/imgui_impl_opengl3.cpp.s
 
 external/imgui/imgui_tables.o: external/imgui/imgui_tables.cpp.o
@@ -254,7 +254,7 @@ external/imgui/imgui_tables.o: external/imgui/imgui_tables.cpp.o
 
 # target to build an object file
 external/imgui/imgui_tables.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/external/imgui/imgui_tables.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/external/imgui/imgui_tables.cpp.o
 .PHONY : external/imgui/imgui_tables.cpp.o
 
 external/imgui/imgui_tables.i: external/imgui/imgui_tables.cpp.i
@@ -262,7 +262,7 @@ external/imgui/imgui_tables.i: external/imgui/imgui_tables.cpp.i
 
 # target to preprocess a source file
 external/imgui/imgui_tables.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/external/imgui/imgui_tables.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/external/imgui/imgui_tables.cpp.i
 .PHONY : external/imgui/imgui_tables.cpp.i
 
 external/imgui/imgui_tables.s: external/imgui/imgui_tables.cpp.s
@@ -270,7 +270,7 @@ external/imgui/imgui_tables.s: external/imgui/imgui_tables.cpp.s
 
 # target to generate assembly for a file
 external/imgui/imgui_tables.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/external/imgui/imgui_tables.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/external/imgui/imgui_tables.cpp.s
 .PHONY : external/imgui/imgui_tables.cpp.s
 
 external/imgui/imgui_widgets.o: external/imgui/imgui_widgets.cpp.o
@@ -278,7 +278,7 @@ external/imgui/imgui_widgets.o: external/imgui/imgui_widgets.cpp.o
 
 # target to build an object file
 external/imgui/imgui_widgets.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/external/imgui/imgui_widgets.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/external/imgui/imgui_widgets.cpp.o
 .PHONY : external/imgui/imgui_widgets.cpp.o
 
 external/imgui/imgui_widgets.i: external/imgui/imgui_widgets.cpp.i
@@ -286,7 +286,7 @@ external/imgui/imgui_widgets.i: external/imgui/imgui_widgets.cpp.i
 
 # target to preprocess a source file
 external/imgui/imgui_widgets.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/external/imgui/imgui_widgets.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/external/imgui/imgui_widgets.cpp.i
 .PHONY : external/imgui/imgui_widgets.cpp.i
 
 external/imgui/imgui_widgets.s: external/imgui/imgui_widgets.cpp.s
@@ -294,15 +294,39 @@ external/imgui/imgui_widgets.s: external/imgui/imgui_widgets.cpp.s
 
 # target to generate assembly for a file
 external/imgui/imgui_widgets.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/external/imgui/imgui_widgets.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/external/imgui/imgui_widgets.cpp.s
 .PHONY : external/imgui/imgui_widgets.cpp.s
+
+include/game.o: include/game.cpp.o
+.PHONY : include/game.o
+
+# target to build an object file
+include/game.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/include/game.cpp.o
+.PHONY : include/game.cpp.o
+
+include/game.i: include/game.cpp.i
+.PHONY : include/game.i
+
+# target to preprocess a source file
+include/game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/include/game.cpp.i
+.PHONY : include/game.cpp.i
+
+include/game.s: include/game.cpp.s
+.PHONY : include/game.s
+
+# target to generate assembly for a file
+include/game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/include/game.cpp.s
+.PHONY : include/game.cpp.s
 
 include/imgui_utils.o: include/imgui_utils.cpp.o
 .PHONY : include/imgui_utils.o
 
 # target to build an object file
 include/imgui_utils.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/include/imgui_utils.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/include/imgui_utils.cpp.o
 .PHONY : include/imgui_utils.cpp.o
 
 include/imgui_utils.i: include/imgui_utils.cpp.i
@@ -310,7 +334,7 @@ include/imgui_utils.i: include/imgui_utils.cpp.i
 
 # target to preprocess a source file
 include/imgui_utils.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/include/imgui_utils.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/include/imgui_utils.cpp.i
 .PHONY : include/imgui_utils.cpp.i
 
 include/imgui_utils.s: include/imgui_utils.cpp.s
@@ -318,15 +342,39 @@ include/imgui_utils.s: include/imgui_utils.cpp.s
 
 # target to generate assembly for a file
 include/imgui_utils.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/include/imgui_utils.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/include/imgui_utils.cpp.s
 .PHONY : include/imgui_utils.cpp.s
+
+include/player.o: include/player.cpp.o
+.PHONY : include/player.o
+
+# target to build an object file
+include/player.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/include/player.cpp.o
+.PHONY : include/player.cpp.o
+
+include/player.i: include/player.cpp.i
+.PHONY : include/player.i
+
+# target to preprocess a source file
+include/player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/include/player.cpp.i
+.PHONY : include/player.cpp.i
+
+include/player.s: include/player.cpp.s
+.PHONY : include/player.s
+
+# target to generate assembly for a file
+include/player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/include/player.cpp.s
+.PHONY : include/player.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -334,7 +382,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -342,7 +390,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -353,7 +401,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ImGuiProject"
+	@echo "... ImGui-Scape"
 	@echo "... external/imgui/imgui.o"
 	@echo "... external/imgui/imgui.i"
 	@echo "... external/imgui/imgui.s"
@@ -375,9 +423,15 @@ help:
 	@echo "... external/imgui/imgui_widgets.o"
 	@echo "... external/imgui/imgui_widgets.i"
 	@echo "... external/imgui/imgui_widgets.s"
+	@echo "... include/game.o"
+	@echo "... include/game.i"
+	@echo "... include/game.s"
 	@echo "... include/imgui_utils.o"
 	@echo "... include/imgui_utils.i"
 	@echo "... include/imgui_utils.s"
+	@echo "... include/player.o"
+	@echo "... include/player.i"
+	@echo "... include/player.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

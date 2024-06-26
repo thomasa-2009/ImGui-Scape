@@ -1,4 +1,4 @@
-# Install script for directory: /Users/thomasanwandter/Developer/ImGuiProject
+# Install script for directory: /Users/thomasanwandter/Developer/ImGui-Scape
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/thomasanwandter/Developer/ImGuiProject/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/thomasanwandter/Developer/ImGui-Scape/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

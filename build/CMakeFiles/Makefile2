@@ -54,16 +54,16 @@ RM = /opt/homebrew/Cellar/cmake/3.29.6/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/thomasanwandter/Developer/ImGuiProject
+CMAKE_SOURCE_DIR = /Users/thomasanwandter/Developer/ImGui-Scape
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/thomasanwandter/Developer/ImGuiProject/build
+CMAKE_BINARY_DIR = /Users/thomasanwandter/Developer/ImGui-Scape/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/ImGuiProject.dir/all
+all: CMakeFiles/ImGui-Scape.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/ImGuiProject.dir/clean
+clean: CMakeFiles/ImGui-Scape.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ImGuiProject.dir
+# Target rules for target CMakeFiles/ImGui-Scape.dir
 
 # All Build rule for target.
-CMakeFiles/ImGuiProject.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/thomasanwandter/Developer/ImGuiProject/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target ImGuiProject"
-.PHONY : CMakeFiles/ImGuiProject.dir/all
+CMakeFiles/ImGui-Scape.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/thomasanwandter/Developer/ImGui-Scape/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target ImGui-Scape"
+.PHONY : CMakeFiles/ImGui-Scape.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ImGuiProject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/thomasanwandter/Developer/ImGuiProject/build/CMakeFiles 10
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ImGuiProject.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/thomasanwandter/Developer/ImGuiProject/build/CMakeFiles 0
-.PHONY : CMakeFiles/ImGuiProject.dir/rule
+CMakeFiles/ImGui-Scape.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/thomasanwandter/Developer/ImGui-Scape/build/CMakeFiles 12
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ImGui-Scape.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/thomasanwandter/Developer/ImGui-Scape/build/CMakeFiles 0
+.PHONY : CMakeFiles/ImGui-Scape.dir/rule
 
 # Convenience name for target.
-ImGuiProject: CMakeFiles/ImGuiProject.dir/rule
-.PHONY : ImGuiProject
+ImGui-Scape: CMakeFiles/ImGui-Scape.dir/rule
+.PHONY : ImGui-Scape
 
 # clean rule for target.
-CMakeFiles/ImGuiProject.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiProject.dir/build.make CMakeFiles/ImGuiProject.dir/clean
-.PHONY : CMakeFiles/ImGuiProject.dir/clean
+CMakeFiles/ImGui-Scape.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGui-Scape.dir/build.make CMakeFiles/ImGui-Scape.dir/clean
+.PHONY : CMakeFiles/ImGui-Scape.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
